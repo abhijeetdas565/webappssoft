@@ -1,0 +1,55 @@
+/* Your existing CSS rules */
+
+.role-buttons {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.role-buttons a {
+  margin: 0 20px;
+  padding: 10px 20px;
+  background-color: #3498db;
+  color: #ffffff;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.role-buttons a:hover {
+  background-color: #2980b9;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+/* Style the main content */
+main {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: white;
+  border: 1px solid #ddd;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Style the link */
+main a {
+  color: #333;
+  text-decoration: none;
+}
+
+/* Style the link hover effect */
+main a:hover {
+  text-decoration: underline;
+}
